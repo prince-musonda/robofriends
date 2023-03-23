@@ -1,0 +1,25 @@
+@font-face{
+    font-family: 'sega font';
+    src: url(SEGA.TTF);
+}
+
+h1{
+    font-family: 'sega font';
+    color: rgb(0, 255, 191);
+    animation-name: animate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+
+@keyframes animate {
+    from{
+        color: rgb(7, 196, 149);
+        transform:scale(1.1)
+    }to{
+        color: rgba(0, 247, 255, 0.535);
+        transform: scale(1);
+
+    }
+}
